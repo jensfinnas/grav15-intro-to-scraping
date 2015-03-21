@@ -1,15 +1,6 @@
 # Getting started with screenscraping using Chrome Scraper
 
-### Simple scraping with Xpaths
-
 This repo: http://bit.ly/grav15-scraping
-
-###Links you need
-
-- [Chrome Scraper extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
-- [Swedish MPs](http://www.riksdagen.se/sv/ledamoter-partier/Hitta-ledamot/Bokstavsordning/)
-- [XPath Tester](http://codebeautify.org/Xpath-Tester).
-
 
 ###More tutorials
 
@@ -53,4 +44,13 @@ Expression|What is does
 `//div[@id="download"]`|Could be any attribute
 `//div/text()`|Get text content of tag
 
+###Links you need
 
+- [Chrome Scraper extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+- [Swedish MPs](http://www.riksdagen.se/sv/ledamoter-partier/Hitta-ledamot/Bokstavsordning/)
+- [XPath Tester](http://codebeautify.org/Xpath-Tester).
+
+### Other tools (for scraping without code)
+
+- [Kimono](https://www.kimonolabs.com/)
+- [Import.io](https://import.io/)
