@@ -17,7 +17,7 @@ This repo: http://bit.ly/grav15-scraping
 
 ####Sample code
 
-<code>
+``` html
 	<ul>
 		<li>
 			Name: <strong class="name">Donatello</strong>
@@ -32,21 +32,23 @@ This repo: http://bit.ly/grav15-scraping
 			Name: <strong class="name">Leonardo</strong>
 		</li>
 	</ul>
-</code>
+```
 
 Get the all names: `//li/strong`
+
 Or: `//strong[@class="name"]` 
+
 Get first name: `//li/strong[1]`
 
 #### XPath basics
 
-|Expression|What is does|
--------------------------
-|`//`|Search whole document|
-|`//div[2]`|Get n:th tag|
-|`//div[2]/table[1]/tr[3]`|Get n:th, inside n:th, inside n:th tag...|
-|`//div[@class="class-name"]`|Get by attribute|
-|`//div[@id="download"]`|Could be any attribute|
-|`//div/text()`|Get text content of tag|
+Expression|What is does
+--- | ---
+`//`|Search whole document
+`//div[2]`|Get n:th tag
+`//div[2]/table[1]/tr[3]`|Get n:th, inside n:th, inside n:th tag...
+`//div[@class="class-name"]`|Get by attribute
+`//div[@id="download"]`|Could be any attribute
+`//div/text()`|Get text content of tag
 
 
